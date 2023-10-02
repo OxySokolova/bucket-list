@@ -54,7 +54,7 @@ function App() {
           </p>
           </div>
           <div className='container'>
-          <img src={image} alt="picture" width="400px"/>
+          <img src={image} alt="wishes" width="400px"/>
           </div>
           <div className='container'>
           <button className='btn' onClick={()=>removeItem(id)}>DONE!</button>
@@ -69,7 +69,7 @@ function App() {
         <h2>HOW I SEE MY FUTURE</h2>
         </div>
         <div>
-        <img className='future' src={image} alt="lake" width="300px"/>
+        <img className='future' src={image} alt="future" width="300px"/>
         </div>
         <div>
         <button className='sld'onClick={previousPicture}>PREV</button>
